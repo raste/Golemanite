@@ -1,0 +1,59 @@
+﻿@using Golemanite;
+@using Golemanite.Content.Resources;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html @Attributes.CurrentLanguage()>
+<head>
+    @*initial-scale=1 prevents automatic zoom out on mobile browsers on page change*@
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <meta name="description" content="@Html.Raw(ViewBag.MetaDescription)" />
+
+    @Styles.Render("~/Content/MainCss")
+</head>
+<body @BodyClass()>
+    <div class="pageBgr">
+        <div class="shownBgr"></div>
+        <div class="newBgr"></div>
+    </div>
+
+    <div class="wrapper">
+        @Html.Partial("_Header")
+
+        <div class="container">
+            <div class="pageContent">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    @Html.Partial("_Footer")
+
+    @Scripts.Render("~/Scripts/MainJs")
+</body>
+</html>
+
+@helper BodyClass()
+{
+    if (Request.RequestContext.RouteData == null
+        || Request.RequestContext.RouteData.Values == null
+        || Request.RequestContext.RouteData.Values.Count < 2)
+    {
+        return;
+    }
+
+    if (Request.RequestContext.RouteData.Values["controller"].ToEmptyStringIfNull().ToLowerInvariant() == "home"
+        && Request.RequestContext.RouteData.Values["action"].ToEmptyStringIfNull().ToLowerInvariant() == "start")
+    {
+        @:class="intro"
+     }
+}

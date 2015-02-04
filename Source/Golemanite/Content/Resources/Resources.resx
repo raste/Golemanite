@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WeOffer" xml:space="preserve">
+    <value>We Offer</value>
+  </data>
+  <data name="AddressCountry" xml:space="preserve">
+    <value>Country....</value>
+  </data>
+  <data name="AddressEmail" xml:space="preserve">
+    <value>E-mail: domain@mail.com</value>
+  </data>
+  <data name="AddressRegion" xml:space="preserve">
+    <value>region .....,</value>
+  </data>
+  <data name="AddressTelephone" xml:space="preserve">
+    <value>Tel: +999 999 999 99</value>
+  </data>
+  <data name="AddressVillage" xml:space="preserve">
+    <value>Village/City,</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>GET IN TOUCH</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ErrEmailInvalidRequestData" xml:space="preserve">
+    <value>The filled in information is invalid</value>
+  </data>
+  <data name="ErrEmailSendFormat" xml:space="preserve">
+    <value>The email could not be sent: {0}</value>
+  </data>
+  <data name="FindUs" xml:space="preserve">
+    <value>FIND US</value>
+  </data>
+  <data name="GetDirections" xml:space="preserve">
+    <value>Get Directions</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Golemanite</value>
+  </data>
+  <data name="PlaceholderEmail" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="PlaceholderMessage" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="PlaceholderName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="PropertyType" xml:space="preserve">
+    <value>GUESTS HOUSE</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>SEND</value>
+  </data>
+  <data name="Since" xml:space="preserve">
+    <value>Since 1111</value>
+  </data>
+  <data name="ViewBirdsEye" xml:space="preserve">
+    <value>View Bird's Eye</value>
+  </data>
+  <data name="ViewLargeMap" xml:space="preserve">
+    <value>View Larger Map</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="HuntingAndFishing" xml:space="preserve">
+    <value>Hunting &amp; Fishing</value>
+  </data>
+  <data name="KilifarevoMonastery" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="TheHouse" xml:space="preserve">
+    <value>The House</value>
+  </data>
+  <data name="TrakianTreasure" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="Fishing" xml:space="preserve">
+    <value>Fishing</value>
+  </data>
+  <data name="Hunting" xml:space="preserve">
+    <value>Hunting</value>
+  </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>more</value>
+  </data>
+  <data name="IntroTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="GKolev" xml:space="preserve">
+    <value>G.Kolev</value>
+  </data>
+  <data name="ContactsTitle" xml:space="preserve">
+    <value>Contacts Title</value>
+  </data>
+  <data name="GalleryTitle" xml:space="preserve">
+    <value>Gallery Title</value>
+  </data>
+  <data name="HuntingTitle" xml:space="preserve">
+    <value>Hunting and Fishing Title</value>
+  </data>
+  <data name="TheHouseTitle" xml:space="preserve">
+    <value>Comfort, Why us Title</value>
+  </data>
+  <data name="ContactsMetaDescription" xml:space="preserve">
+    <value>Your contacts meta</value>
+  </data>
+  <data name="GalleryMetaDescription" xml:space="preserve">
+    <value>You gallery meta</value>
+  </data>
+  <data name="LocationMetaDescription" xml:space="preserve">
+    <value>Your location meta</value>
+  </data>
+  <data name="HuntingMetaDescription" xml:space="preserve">
+    <value>Your hunting meta</value>
+  </data>
+  <data name="IntroMetaDescription" xml:space="preserve">
+    <value>Your intro meta</value>
+  </data>
+  <data name="TheHouseMetaDescription" xml:space="preserve">
+    <value>Your house meta</value>
+  </data>
+  <data name="LocationTitle" xml:space="preserve">
+    <value>Location Title</value>
+  </data>
+  <data name="Comfort" xml:space="preserve">
+    <value>Comfort</value>
+  </data>
+  <data name="ComfortIntro" xml:space="preserve">
+    <value>Your comfort intro</value>
+  </data>
+  <data name="ComfortPointCapacity" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointCourtyard" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointCourtyard_Bathroom" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointCourtyard_Parking" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointCourtyard_Pool" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointFirstFloor" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointFirstFloor_Bathroom" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointFirstFloor_SummerKitchen" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointFirstFloor_Tavern" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointFirstFloor_WinterKitchen" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointSecondFloor" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointSecondFloor_Rooms" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointSecondFloor_Verand" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointTV" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="ComfortPointWiFi" xml:space="preserve">
+    <value>comfort description</value>
+  </data>
+  <data name="FishingDescr" xml:space="preserve">
+    <value>Etiam blandit mattis volutpat. Ut id quam laoreet, porta lectus a, sagittis est. Aenean tincidunt magna turpis, at sollicitudin ex sollicitudin ut. Vestibulum sed dui dignissim, ullamcorper dui hendrerit, lacinia augue. Sed ligula purus, commodo vitae nunc eget, tincidunt tincidunt diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam in lacinia est. Fusce auctor congue metus sit amet rhoncus. Donec ullamcorper sollicitudin augue sed semper.</value>
+  </data>
+  <data name="GalleryCat" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GalleryFirstFloor" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GalleryFirstFloorSummerKitchen" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GalleryFirstFloorTavern" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GalleryFirstFloorWinterKitchen" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GalleryInnerCourtyard" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GallerySecondFloor" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GallerySecondFloorBathroom" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GallerySecondFloorRoom" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GallerySecondFloorUdaq" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="GallerySecondFloorVerand" xml:space="preserve">
+    <value>Image descr</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistoryDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+           Duis cursus ipsum non leo molestie placerat. Donec fringilla malesuada diam, a tincidunt sem sollicitudin a. Cras hendrerit enim at semper lobortis. Mauris mattis turpis eget lectus elementum, pretium lacinia nisi auctor. Proin lacinia enim sit amet venenatis ultricies. Nunc sit amet lectus eu leo consectetur porta et quis dui. Nulla ullamcorper ipsum et sapien iaculis, ac vulputate lacus scelerisque. Mauris quis eros id arcu molestie tincidunt et pellentesque nibh. Praesent tempus, lacus eu dictum posuere, leo felis venenatis turpis, et dignissim purus lectus et justo. Cras varius id arcu molestie posuere. Morbi a faucibus ante, sit amet malesuada metus.
+        &lt;/p&gt;</value>
+  </data>
+  <data name="HuntingDescr" xml:space="preserve">
+    <value>Etiam blandit mattis volutpat. Ut id quam laoreet, porta lectus a, sagittis est. Aenean tincidunt magna turpis, at sollicitudin ex sollicitudin ut. Vestibulum sed dui dignissim, ullamcorper dui hendrerit, lacinia augue. Sed ligula purus, commodo vitae nunc eget, tincidunt tincidunt diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam in lacinia est. Fusce auctor congue metus sit amet rhoncus. Donec ullamcorper sollicitudin augue sed semper.</value>
+  </data>
+  <data name="LocationDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.
+        &lt;/p&gt;
+&lt;p&gt;
+Etiam blandit mattis volutpat. Ut id quam laoreet, porta lectus a, sagittis est. Aenean tincidunt magna turpis, at sollicitudin ex sollicitudin ut. Vestibulum sed dui dignissim, ullamcorper dui hendrerit, lacinia augue. Sed ligula purus, commodo vitae nunc eget, tincidunt tincidunt diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam in lacinia est. Fusce auctor congue metus sit amet rhoncus. Donec ullamcorper sollicitudin augue sed semper.
+&lt;/p&gt;</value>
+  </data>
+  <data name="LocationHead" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LocationInfastructure" xml:space="preserve">
+    <value>&lt;p&gt;
+            Etiam interdum, dui ac finibus placerat, erat est condimentum massa, sit amet tempor ligula quam at urna. Mauris eleifend rutrum efficitur. Phasellus tincidunt lacinia purus, id pellentesque erat rutrum id. Morbi laoreet, sem at pulvinar dapibus, mauris lorem aliquet odio, id aliquam metus dui vel massa. Integer ipsum odio, cursus sed lobortis in, auctor aliquet arcu. In hac habitasse platea dictumst. Cras quis erat sit amet est pulvinar viverra. Phasellus mattis maximus nulla consectetur interdum.
+        &lt;/p&gt;
+&lt;p&gt;
+Cras ornare bibendum ornare. Cras quis ipsum ac quam sodales sagittis. Curabitur urna velit, laoreet sit amet lorem ac, condimentum suscipit diam. Curabitur rutrum quam quis risus faucibus, quis congue libero sodales. Maecenas malesuada, sapien quis cursus imperdiet, elit nibh mollis purus, in pretium nisi mi sit amet mauris. Cras vel metus aliquet, maximus augue in, pretium quam. Quisque porta porta condimentum.
+&lt;/p&gt;</value>
+  </data>
+  <data name="WhyUs" xml:space="preserve">
+    <value>Why Us</value>
+  </data>
+  <data name="WhyUsDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+            Etiam interdum, dui ac finibus placerat, erat est condimentum massa, sit amet tempor ligula quam at urna. Mauris eleifend rutrum efficitur. Phasellus tincidunt lacinia purus, id pellentesque erat rutrum id. Morbi laoreet, sem at pulvinar dapibus, mauris lorem aliquet odio, id aliquam metus dui vel massa. Integer ipsum odio, cursus sed lobortis in, auctor aliquet arcu. In hac habitasse platea dictumst. Cras quis erat sit amet est pulvinar viverra. Phasellus mattis maximus nulla consectetur interdum.
+        &lt;/p&gt;
+&lt;p&gt;
+Cras ornare bibendum ornare. Cras quis ipsum ac quam sodales sagittis. Curabitur urna velit, laoreet sit amet lorem ac, condimentum suscipit diam. Curabitur rutrum quam quis risus faucibus, quis congue libero sodales. Maecenas malesuada, sapien quis cursus imperdiet, elit nibh mollis purus, in pretium nisi mi sit amet mauris. Cras vel metus aliquet, maximus augue in, pretium quam. Quisque porta porta condimentum.
+&lt;/p&gt;</value>
+  </data>
+</root>

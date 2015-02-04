@@ -1,0 +1,83 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.container {
+    width: 95%;
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (min-width: 550px) {
+    .container {
+        width: 95%;
+    }
+
+    .column,
+    .columns {
+        margin-left: 0;
+    }
+
+    .one.column,
+    .one.columns {
+        width: 8.333333333333333%;
+    }
+
+    .two.columns {
+        width: 16.66666666666667%;
+    }
+
+    .three.columns {
+        width: 25%;
+    }
+
+    .four.columns {
+        width: 33.33333333333333%;
+    }
+
+    .five.columns {
+        width: 41.66666666666667%;
+    }
+
+    .six.columns {
+        width: 50%;
+    }
+
+    .seven.columns {
+        width: 58.33333333333333%;
+    }
+
+    .eight.columns {
+        width: 66.66666666666666%;
+    }
+
+    .nine.columns {
+        width: 75.0%;
+    }
+
+    .ten.columns {
+        width: 83.33333333333333%;
+    }
+
+    .eleven.columns {
+        width: 91.66666666666666%;
+    }
+
+    .twelve.columns {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .one-third.column {
+        width: 33.33333333333333%;
+    }
+
+    .two-thirds.column {
+        width: 66.66666666666666%;
+    }
+
+    .one-half.column {
+        width: 50%;
+    }
+}

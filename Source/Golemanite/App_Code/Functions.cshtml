@@ -1,0 +1,29 @@
+﻿@functions{
+    public static Golemanite.Language GetLanguage()
+    {
+        var page = (System.Web.Mvc.WebViewPage)PageContext.Page;
+
+        var objLang = page.ViewBag.Language;
+
+        if (objLang == null)
+        {
+            return Golemanite.Language.English;
+        }
+
+        return (Golemanite.Language)objLang;
+    }
+
+    public static string GetLanguageCode()
+    {
+        var page = (System.Web.Mvc.WebViewPage)PageContext.Page;
+
+        var objCode = page.ViewBag.LangCode;
+
+        if (objCode == null)
+        {
+            return "en";
+        }
+
+        return objCode;
+    }
+}

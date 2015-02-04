@@ -1,0 +1,24 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.footer {
+    position: relative;
+    margin-top: -40px;
+    padding-top: 15px;
+    height: 25px;
+    clear: both;
+    text-align: right;
+}
+
+    .footer a {
+        font-family: 'Bitter';
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(98, 98, 98);
+    }
+
+        .footer a:visited {
+            text-decoration: none;
+            color: rgb(98, 98, 98);
+        }

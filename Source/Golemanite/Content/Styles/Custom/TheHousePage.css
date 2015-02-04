@@ -1,0 +1,48 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.theHouse > .one-half.column {
+    width: 100%;
+}
+
+    .theHouse > .one-half.column:first-child p {
+        margin-bottom: 10px;
+    }
+
+    .theHouse > .one-half.column:not(:first-child) {
+        margin-top: 15px;
+    }
+
+.theHouse ul {
+    margin-bottom: 0;
+    list-style: none inside;
+}
+
+    .theHouse ul li {
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+
+        .theHouse ul li:before {
+            content: "| ";
+            color: #ffffff;
+        }
+
+    .theHouse ul ul {
+        margin-top: 7px;
+    }
+
+@media (min-width: 750px) {
+    .theHouse > .one-half.column {
+        width: 50%;
+    }
+
+        .theHouse > .one-half.column:first-child {
+            padding-right: 25px;
+        }
+
+        .theHouse > .one-half.column:not(:first-child) {
+            margin-top: 0;
+        }
+}

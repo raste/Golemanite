@@ -1,0 +1,165 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.contacts > .seven.columns,
+.contacts > .five.columns {
+    width: 100%;
+}
+
+.contacts .mapHolder {
+    line-height: 1;
+}
+
+    .contacts .mapHolder #mapDiv {
+        border: 1px solid white;
+        width: 250px;
+        height: 200px;
+        position: relative;
+    }
+
+    .contacts .mapHolder a {
+        font-size: 10px;
+    }
+
+.contacts .addressDescr {
+    margin-top: 15px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    margin-bottom: 0;
+    margin-left: 0;
+    overflow: auto;
+}
+
+.contacts form {
+    font-family: 'Arial';
+    margin-bottom: 0;
+}
+
+    .contacts form input {
+        display: block;
+    }
+
+    .contacts form input,
+    .contacts form textarea {
+        padding: 8px 4px;
+        line-height: 1.2;
+        text-align: left;
+        font-size: 15px;
+        color: #a4a4a4;
+        letter-spacing: 0;
+        border: none;
+        border-radius: 0;
+        background-color: rgba(199, 199, 199, 0.10);
+        margin-bottom: 0;
+    }
+
+        .contacts form input:focus,
+        .contacts form textarea:focus {
+            border: none;
+        }
+
+    .contacts form .row > .column,
+    .contacts form .messageHolder {
+        padding-bottom: 20px;
+    }
+
+    .contacts form textarea {
+        height: 120px;
+    }
+
+    .contacts form .submitBtn,
+    .contacts form .clearBtn {
+        line-height: 1;
+        text-align: center;
+        font-family: 'Bitter';
+        font-size: 25px;
+        color: #7ecefd;
+        letter-spacing: 0;
+        background: none;
+        font-weight: normal;
+        padding: 0;
+    }
+
+    .contacts form .submitBtn {
+        float: right;
+    }
+
+    .contacts form label.error {
+        position: absolute;
+        display: none;
+        margin-bottom: 0;
+        font-size: 12px;
+        padding-top: 4px;
+        color: rgb(255, 133, 137);
+    }
+
+    .contacts form .emailResult {
+        display: none;
+        margin-bottom: 5px;
+    }
+
+        .contacts form .emailResult.success,
+        .contacts form .emailResult.error {
+            display: block;
+        }
+
+        .contacts form .emailResult.success {
+            color: rgb(110, 192, 21);
+        }
+
+        .contacts form .emailResult.error {
+            color: rgb(255, 133, 137);
+        }
+
+@media (min-width: 290px) {
+    .contacts .mapHolder #mapDiv {
+        border-width: 8px;
+    }
+}
+
+@media (min-width: 470px) {
+    .contacts .mapHolder {
+        display: inline-block;
+        float: left;
+    }
+
+        .contacts .mapHolder #mapDiv {
+            margin-right: 10px;
+        }
+
+    .contacts .addressDescr {
+        margin-top: 0;
+    }
+
+    .contacts > .five.columns {
+        margin-top: 25px;
+    }
+
+    .contacts form .clearBtn {
+        float: right;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 550px) {
+    .contacts form .nameHolder {
+        padding-right: 5px;
+    }
+
+    .contacts form .emailHolder {
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 840px) {
+    .contacts > .seven.columns {
+        width: 58.33333333333333%;
+        padding-right: 5px;
+    }
+
+    .contacts > .five.columns {
+        width: 41.66666666666667%;
+        margin-top: 0;
+    }
+}

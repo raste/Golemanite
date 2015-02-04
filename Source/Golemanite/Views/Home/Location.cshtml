@@ -1,0 +1,23 @@
+﻿@using Golemanite.Content.Resources;
+@{
+    ViewBag.Title = Resources.LocationTitle;
+    ViewBag.MetaDescription = Resources.LocationMetaDescription;
+}
+
+<div class="home">
+    <h2>@Resources.LocationHead</h2>
+    <div class="u-cf">
+        <img src="~/Content/Images/placeholder_t.png" alt="@Resources.Name" title="@Resources.Name" />
+        @Html.Raw(Resources.LocationDescr)
+    </div>
+    <div class="u-cf infrastructure">
+        <img src="~/Content/Images/placeholder_t.png" alt="@Resources.KilifarevoMonastery" title="@Resources.KilifarevoMonastery" />
+        @Html.Raw(Resources.LocationInfastructure)
+    </div>
+
+    <h2>@Resources.History</h2>
+    <div class="u-cf">
+        <img src="~/Content/Images/placeholder_t.png" alt="@Resources.TrakianTreasure" title="@Resources.TrakianTreasure" />
+        @Html.Raw(Resources.HistoryDescr)
+    </div>
+</div>

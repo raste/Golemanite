@@ -1,0 +1,80 @@
+﻿@using Golemanite.Content.Resources;
+
+@{
+    ViewBag.Title = Resources.ContactsTitle;
+    ViewBag.MetaDescription = Resources.ContactsMetaDescription;
+}
+
+<div class="row contacts">
+    <div class="seven columns">
+
+        <h2>@Resources.FindUs</h2>
+
+        @Map()
+
+        @Address()
+
+    </div>
+
+    <div class="five columns">
+
+        <h2>@Resources.ContactUs</h2>
+
+        @using (Html.BeginForm("SendMail", "Home", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="one-half column nameHolder">
+                    <input class="u-full-width" type="text" placeholder="@Resources.PlaceholderName" id="ContactName" name="ContactName">
+                    <label for="ContactName" class="error"></label>
+                </div>
+                <div class="one-half column emailHolder">
+                    <input class="u-full-width" type="text" placeholder="@Resources.PlaceholderEmail" id="ContactEmail" name="ContactEmail">
+                    <label for="ContactEmail" class="error"></label>
+                </div>
+            </div>
+            <div class="row messageHolder">
+                <textarea class="u-full-width" placeholder="@Resources.PlaceholderMessage" id="ContactMessage" name="ContactMessage"></textarea>
+                <br />
+                <label for="ContactMessage" class="error"></label>
+            </div>
+            <div class="emailResult"></div>
+            <div class="row">
+                <input class="submitBtn" type="submit" value="@Resources.Send" />
+                <input class="clearBtn" type="submit" value="@Resources.Clear" />
+            </div>
+        }
+
+    </div>
+</div>
+
+@helper Map()
+{
+    <div class="mapHolder">
+        <div id='mapDiv'></div>
+
+        <div>
+            <a target="_blank" href="http://www.bing.com/maps/?cp=30~30&sty=h&lvl=19&where1=30,30&mm_embed=map">@Resources.ViewLargeMap</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="http://www.bing.com/maps/?cp=30~30&sty=h&lvl=19&rtp=~pos.30_30__&mm_embed=dir">@Resources.GetDirections</a>
+        </div>
+
+    </div>
+}
+
+@helper Address()
+{
+    <div class="addressDescr">
+        <p>
+            @Resources.AddressVillage
+            <br />
+            @Resources.AddressRegion
+            <br />
+            @Resources.AddressCountry
+        </p>
+        <p>
+            @Resources.AddressTelephone
+            <br />
+            @Resources.AddressEmail
+        </p>
+    </div>
+}

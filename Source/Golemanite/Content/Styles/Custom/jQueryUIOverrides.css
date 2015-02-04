@@ -1,0 +1,65 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.ui-widget-overlay {
+    background-image: none;
+    background-color: #000;
+    filter: alpha(opacity:90);
+    -moz-opacity: .9;
+    -khtml-opacity: .9;
+    opacity: .9;
+}
+
+.ui-widget-content {
+    background: rgb(60, 60, 60);
+    border: none;
+    border-radius: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 0;
+}
+
+.ui-dialog .ui-dialog-title {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.ui-widget-header {
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-family: 'Bitter';
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    background: none;
+    border: none;
+    border-radius: 0;
+    top: 30px;
+}
+
+.ui-state-default .ui-icon {
+    background-image: url("/Content/Images/button_close.png");
+    background-position: left top;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 5px 10px 10px 10px;
+    font-family: 'Arial';
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+@media (min-width: 330px) {
+    .ui-dialog .ui-dialog-content {
+        padding: 15px 20px 20px 20px;
+    }
+}

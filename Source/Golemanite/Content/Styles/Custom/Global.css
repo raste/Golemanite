@@ -1,0 +1,148 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+html {
+    background-color: black;
+    height: 100%;
+}
+
+    html.loading {
+        background-image: url('/Content/Images/preloader.gif');
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+body {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: #a4a4a4;
+    line-height: 1.3;
+    font-style: normal;
+    height: 100%;
+    background-color: black;
+    /*
+        Needed for IE in order the body fade out/in animation to work correctly.
+        It does not work otherwise for absolute/fixed positioned elements!
+    */
+    position: relative;
+    opacity: 0;
+}
+
+    body:after {
+        /*NOTE: the preloading does not work on IE9*/
+        content:
+        /*Pre loading the first shown images in the gallery*/
+        url('/Content/Images/placeholder_t.png') /*Add additional images here*/
+        /*Pre loading the first shown images in the hunting and fishing*/
+        /*url('/Content/Images/placeholder_t.png') Add additional images here*/ ;
+        display: none;
+    }
+
+h2,
+h4 {
+    font-family: 'Bitter';
+    line-height: 1;
+    color: #eeeeee;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+    .wrapper > .container {
+        padding-bottom: 40px;
+    }
+
+.pageBgr {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+    .pageBgr .shownBgr,
+    .pageBgr .newBgr {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-position: 50% 50%;
+        background-attachment: scroll;
+        /*On mobile android chrome (possible iOS, iPhone) the browser
+         address bar prevents true calculation of viewport height
+         and after it is hidden (on scroll) the resize event is not
+         fired. So the backgrounds heights are not updated and empty 
+         bar at the bottom is revealed on scroll.*/
+        padding-bottom: 60px;
+    }
+
+    .pageBgr .shownBgr {
+        background-image: url('/Content/Images/BGR/bgr1_blur.jpg');
+    }
+
+    .pageBgr .newBgr {
+        opacity: 0;
+    }
+
+body.intro .pageBgr .shownBgr {
+    background-image: url('/Content/Images/BGR/bgr1.jpg');
+}
+
+body.intro .pageContent {
+    display: none;
+}
+
+.pageContent {
+    position: relative;
+}
+
+    .pageContent p,
+    .pageContent ul {
+        position: relative;
+    }
+
+    .pageContent a,
+    .pageContent a:visited {
+        font-family: 'Bitter';
+        color: #7ecefd;
+        text-decoration: none;
+    }
+
+    .pageContent img {
+        border: 8px solid white;
+    }
+
+.showMobile {
+    display: block;
+}
+
+.hideMobile {
+    display: none;
+}
+
+.dialog {
+    display: none;
+}
+
+    .dialog > p:last-child {
+        margin-bottom: 0;
+    }
+
+
+@media (min-width: 550px) {
+
+    .showMobile {
+        display: none;
+    }
+
+    .hideMobile {
+        display: block;
+    }
+}

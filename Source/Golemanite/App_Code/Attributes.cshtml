@@ -1,0 +1,40 @@
+﻿@using Golemanite.Content.Resources;
+
+@helper ChangePage(string relActionPath, string relPartialActionPath, string title)
+{
+    @:data-push-action="@relActionPath"
+    @:data-push-partial-action="@relPartialActionPath"
+    if (title.IsEmpty() == true)
+    {
+        @:data-title="@Resources.IntroTitle"
+    }
+    else
+    {
+        @:data-title="@title"
+    }    
+}
+
+@helper Gallery(string name)
+{
+    @:data-lightbox="@name"
+}
+
+@helper DialogLink(string name)
+{
+    @:data-dialog data-dialog-title="@name"
+}
+
+@helper DialogDescr(string name) 
+{ 
+    @:data-dialog-body="@name"
+}
+
+@helper LanguageSwitch(string langCode) 
+{ 
+    @:data-switch-lang="@langCode"
+}
+
+@helper CurrentLanguage()
+{
+    @:lang="@Functions.GetLanguageCode()"
+}

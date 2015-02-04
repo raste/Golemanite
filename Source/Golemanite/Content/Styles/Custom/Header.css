@@ -1,0 +1,365 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.headerContainer {
+    font-family: 'Bitter';
+    line-height: 1;
+    color: #e6e6e6;
+}
+
+    .headerContainer .showAfter900 {
+        display: none;
+    }
+
+    .headerContainer .showBefore900 {
+        display: block;
+    }
+
+.headerMain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .headerMain .top {
+        height: 18px;
+    }
+
+    .headerMain .topType {
+        text-transform: lowercase;
+    }
+
+    .headerMain .bigName {
+        text-align: center;
+    }
+
+        .headerMain .bigName a {
+            color: #e6e6e6;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+            .headerMain .bigName a:hover,
+            .headerMain .bigName a:visited {
+                color: #e6e6e6;
+            }
+
+    .headerMain img.star {
+        margin-top: 7px;
+        visibility: hidden;
+    }
+
+    .headerMain .line {
+        font-size: 15px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        display: none;
+        z-index: 1;
+    }
+
+        .headerMain .line img {
+            margin-top: 9px;
+            margin-bottom: 5px;
+            width: 220px;
+        }
+
+    .headerMain img.lineMobile {
+        margin-top: 7px;
+    }
+
+    .headerMain div {
+        white-space: nowrap;
+    }
+
+    .headerMain .main-menu a,
+    .headerMain .main-menu .subMenuHolderText {
+        text-decoration: none;
+        line-height: 1.2;
+        font-size: 20px;
+        letter-spacing: 0;
+        color: White;
+        position: relative;
+        z-index: 3;
+    }
+
+    .headerMain .main-menu .subMenuHolderText {
+        cursor: default;
+        display: none;
+    }
+
+    .headerMain .main-menu .one-half .column,
+    .headerMain .main-menu .one-half .columns,
+    .headerMain .main-menu .subMenuHolder li {
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    .headerMain a:visited {
+        color: White;
+    }
+
+    .headerMain a:hover,
+    .headerMain a.selected,
+    .headerMain .main-menu .subMenuHolderText:hover,
+    .headerMain .main-menu .subMenuHolderText:active,
+    .headerMain .main-menu .subMenuHolderText:focus,
+    .headerMain .subMenuHolder:hover > a,
+    .headerMain .subMenuHolder:hover > .subMenuHolderText,
+    .headerMain .subMenuHolder:active > .subMenuHolderText,
+    .headerMain .subMenuHolder:focus > .subMenuHolderText {
+        color: #9cdcff;
+    }
+
+    .headerMain .subMenuHolder ul {
+        list-style: none outside none;
+        margin-bottom: 0;
+    }
+
+        .headerMain .subMenuHolder ul li {
+            text-align: left;
+            margin-bottom: 0;
+        }
+
+            .headerMain .subMenuHolder ul li a {
+                line-height: 1.2;
+                font-size: 20px;
+                letter-spacing: 0;
+            }
+
+.headerRibbon {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+
+    .headerRibbon span {
+        color: #3a586a;
+        font-size: 14px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 24px;
+        z-index: 2;
+    }
+
+    .headerRibbon img {
+        z-index: 1;
+        position: relative;
+    }
+
+    .headerRibbon .bgr {
+        background: url('/Content/Images/header_shadow.png') 0 0 repeat-x;
+        height: 188px;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+body.intro .headerContainer {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    height: 230px;
+}
+
+    body.intro .headerContainer .headerMain {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+body.intro .headerRibbon {
+    margin-bottom: 0;
+}
+
+    body.intro .headerRibbon .bgr {
+        display: none;
+    }
+
+@media (min-width: 370px) {
+    body.intro .headerContainer {
+        height: 250px;
+    }
+
+    .headerMain .bigName a {
+        font-size: 50px;
+    }
+}
+
+/*Menu styles for tablets
+  Note: the same width is used to indicate that pages transition should be animated with sliding out/in.
+  Keep the same on both places */
+@media (min-width: 550px) {
+    body.intro .headerContainer {
+        height: 92px;
+    }
+
+    .headerMain .one-half.column > div:first-child {
+        text-align: right;
+    }
+
+    .headerMain {
+        padding-top: 113px;
+        padding-bottom: 5px;
+    }
+
+        .headerMain .topType {
+            font-size: 18px;
+        }
+
+        .headerMain .mainLink,
+        .headerMain .subMenuHolderText {
+            padding: 15px 0;
+        }
+
+        .headerMain .main-menu .subMenuHolderText {
+            display: inline;
+        }
+
+        .headerMain .main-menu a,
+        .headerMain .main-menu .subMenuHolderText {
+            font-size: 17px;
+        }
+
+        .headerMain .subMenuHolder {
+            margin-bottom: 15px;
+        }
+
+        .headerMain .main-menu .one-half .column,
+        .headerMain .main-menu .one-half .columns {
+            text-align: left;
+            padding-top: 0;
+        }
+
+
+        .headerMain .subMenuHolder ul {
+            z-index: 1000;
+            margin-top: 15px;
+            position: absolute;
+            background-color: rgb(25,28,27);
+            padding: 15px;
+            min-width: 150px;
+            list-style: none outside none;
+            opacity: 0;
+            visibility: hidden;
+            -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+            -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+            -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+            transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+        }
+
+        .headerMain .subMenuHolder:hover > ul,
+        .headerMain .subMenuHolder > a:active > ul,
+        .headerMain .subMenuHolder > a:focus > ul {
+            visibility: visible;
+            opacity: 1;
+            -moz-transition-delay: 0s;
+            -o-transition-delay: 0s;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+
+        .headerMain .subMenuHolder ul li {
+            float: none;
+            position: relative;
+            text-align: center;
+            margin-bottom: 1rem;
+            padding-left: 0;
+            padding-top: 0;
+        }
+
+            .headerMain .subMenuHolder ul li a {
+                font-size: 15px;
+            }
+
+        .headerMain .main-menu .seven.columns {
+            width: 43.33333333333333%;
+        }
+
+        .headerMain .main-menu .three.columns {
+            width: 40%;
+        }
+
+    .headerRibbon {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 620px) {
+    body.intro .headerContainer {
+        height: 123px;
+    }
+
+    .headerMain .bigName a {
+        font-size: 80px;
+    }
+
+    .headerMain .main-menu a,
+    .headerMain .main-menu .subMenuHolderText {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 780px) {
+    body.intro .headerContainer {
+        height: 142px;
+    }
+
+    .headerMain .bigName a {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 900px) {
+    body.intro .headerContainer {
+        height: 218px;
+    }
+
+    .headerContainer .showAfter900 {
+        display: block;
+    }
+
+    .headerContainer .showBefore900 {
+        display: none;
+    }
+
+    .headerMain {
+        padding-bottom: 0;
+    }
+
+        .headerMain .line {
+            display: block;
+        }
+
+        .headerMain img.star {
+            visibility: visible;
+        }
+
+        .headerMain .main-menu .two.columns {
+            width: 7.66666666666667%;
+        }
+
+        .headerMain .main-menu .three.columns {
+            width: 34%;
+        }
+
+        .headerMain .main-menu .seven.columns {
+            width: 58.33333333333333%;
+        }
+
+
+    .headerRibbon {
+        padding-top: 10px;
+    }
+
+        .headerRibbon .bgr {
+            top: 41px;
+        }
+}

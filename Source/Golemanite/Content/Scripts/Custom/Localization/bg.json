@@ -1,0 +1,8 @@
+﻿{
+    "Language" : "Bulgarian",
+    "ErrNameRequired" : "Въведете Име",
+    "ErrEmailRequired" : "Въведете Ел.адрес",
+    "ErrEmailInvalid" : "Невалиден Ел.адрес",
+    "ErrMsgRequired" : "Въведете Съобщение",
+    "EmailSuccess" : "Съобщението е изпратено успешно"
+}

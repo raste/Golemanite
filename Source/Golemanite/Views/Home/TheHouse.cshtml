@@ -1,0 +1,52 @@
+﻿@using Golemanite.Content.Resources;
+
+@{
+    ViewBag.Title = Resources.TheHouseTitle;
+    ViewBag.MetaDescription = Resources.TheHouseMetaDescription;
+}
+
+<div class="row theHouse">
+    <div class="one-half column">
+        <h2>@Resources.Comfort</h2>
+        <p>
+            @Resources.ComfortIntro
+            <ul>
+                <li>
+                    @Resources.ComfortPointCapacity
+                </li>
+                <li>
+                    @Resources.ComfortPointSecondFloor
+                    <ul>
+                        <li>@Resources.ComfortPointSecondFloor_Rooms</li>
+                        <li>@Resources.ComfortPointSecondFloor_Verand</li>
+                    </ul>
+                </li>
+                <li>
+                    @Resources.ComfortPointFirstFloor
+                    <ul>
+                        <li>@Resources.ComfortPointFirstFloor_Tavern</li>
+                        <li>@Resources.ComfortPointFirstFloor_WinterKitchen</li>
+                        <li>@Resources.ComfortPointFirstFloor_SummerKitchen</li>
+                        <li>@Resources.ComfortPointFirstFloor_Bathroom</li>
+                    </ul>
+                </li>
+                <li>
+                    @Resources.ComfortPointCourtyard
+                    <ul>
+                        <li>@Resources.ComfortPointCourtyard_Pool</li>
+                        <li>@Resources.ComfortPointCourtyard_Bathroom</li>
+                        <li>@Resources.ComfortPointCourtyard_Parking</li>
+                    </ul>
+                </li>
+                <li>@Resources.ComfortPointWiFi</li>
+                <li>@Resources.ComfortPointTV</li>
+            </ul>
+        </p>
+    </div>
+    <div class="one-half column">
+        <h2>@Resources.WhyUs</h2>
+        @Html.Raw(Resources.WhyUsDescr)
+    </div>
+</div>
+
+

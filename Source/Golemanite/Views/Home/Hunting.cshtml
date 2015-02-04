@@ -1,0 +1,82 @@
+﻿@using Golemanite.Content.Resources;
+
+@{
+    ViewBag.Title = Resources.HuntingTitle;
+    ViewBag.MetaDescription = Resources.HuntingMetaDescription;
+}
+
+<div class="hunting">
+    <h2>@Resources.Fishing</h2>
+
+    <p>
+        @Resources.FishingDescr
+    </p>
+
+    <div class="fish">
+
+        @*NOTE: if images names are updated -> do not forget to update body:after stylem, since some of the images are preloaded there!*@
+
+        <div class="row">
+            @FishDescription("buffalo", Fish.BuffaloName, Fish.BuffaloHeader, Fish.BuffaloDescr)
+            @FishDescription("common_bleak", Fish.CommonBleakName, Fish.CommonBleakHeader, Fish.CommonBleakDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("common_bream", Fish.CommonBreamName, Fish.CommonBreamHeader, Fish.CommonBreamDescr)
+            @FishDescription("common_roach", Fish.CommonRoachName, Fish.CommonRoachHeader, Fish.CommonRoachDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("goldfish", Fish.GoldfishName, Fish.GoldfishHeader, Fish.GoldfishDescr)
+            @FishDescription("european_chub", Fish.EuropeanChubName, Fish.EuropeanChubHeader, Fish.EuropeanChubDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("northern_pike", Fish.NorthPikeName, Fish.NorthPikeHeader, Fish.NorthPikeDescr)
+            @FishDescription("pond_perch", Fish.PondPerchName, Fish.PondPerchHeader, Fish.PondPerchDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("rudd", Fish.RuddName, Fish.RuddHeader, Fish.RuddDescr)
+            @FishDescription("ruffe", Fish.RuffeName, Fish.RuffeHeader, Fish.RuffeDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("silver_carp", Fish.SilverCarpName, Fish.SilverCarpHeader, Fish.SilverCarpDescr)
+            @FishDescription("wels_catfish", Fish.WelsCatfishName, Fish.WelsCatfishHeader, Fish.WelsCatfishDescr)
+        </div>
+
+        <div class="row">
+            @FishDescription("yellow_perch", Fish.YellowPerchName, Fish.YellowPerchHeader, Fish.YellowPerchDescr)
+            @FishDescription("zander", Fish.ZanderName, Fish.ZanderHeader, Fish.ZanderDescr)
+        </div>
+    </div>
+
+    <h2>@Resources.Hunting</h2>
+    <p>
+        @Resources.HuntingDescr
+    </p>
+
+</div>
+
+@helper FishDescription(string imgName, string name, string header, string description)
+{
+    var fullSizeUrl = "/Content/Images/placeholder.png";
+    var thumbnailUrl = "/Content/Images/placeholder_t.png";
+
+    <div class="one-half column">
+        <a href="@fullSizeUrl" @Attributes.Gallery("fish") target="_blank"><img src="@thumbnailUrl" alt="@name" title="@name" /></a>
+        <p>
+            <strong>@name</strong>
+            -
+            @header
+            <a href="#" @Attributes.DialogLink(name)>@Resources.ShowMore</a>
+        </p>
+        <div class="dialogDescr" @Attributes.DialogDescr(name)>
+            @description
+        </div>
+    </div>
+}
+
+
+

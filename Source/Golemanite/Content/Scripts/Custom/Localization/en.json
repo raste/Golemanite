@@ -1,0 +1,8 @@
+﻿{
+    "Language" : "US English",
+    "ErrNameRequired" : "Name required",
+    "ErrEmailRequired" : "Email required",
+    "ErrEmailInvalid" : "Invalid email",
+    "ErrMsgRequired" : "Message required",
+    "EmailSuccess" : "Message sent successfully"
+}

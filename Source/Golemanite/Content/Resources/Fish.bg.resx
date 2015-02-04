@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BuffaloDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="BuffaloHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="BuffaloName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="CommonBleakDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="CommonBleakHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="CommonBleakName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="CommonBreamDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="CommonBreamHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="CommonBreamName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="CommonRoachDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="CommonRoachHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="CommonRoachName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="EuropeanChubDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="EuropeanChubHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="EuropeanChubName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="GoldfishDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="GoldfishHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="GoldfishName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="NorthPikeDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="NorthPikeHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="NorthPikeName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="PondPerchDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="PondPerchHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="PondPerchName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="RuddDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="RuddHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="RuddName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="RuffeDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="RuffeHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="RuffeName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="SilverCarpDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="SilverCarpHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="SilverCarpName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="WelsCatfishDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="WelsCatfishHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="WelsCatfishName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="YellowPerchDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="YellowPerchHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="YellowPerchName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+  <data name="ZanderDescr" xml:space="preserve">
+    <value>&lt;p&gt;
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur imperdiet hendrerit. Aenean vulputate laoreet orci. Maecenas egestas urna neque, pharetra placerat nisl scelerisque quis. Praesent fringilla urna scelerisque tempus consequat. Vestibulum pellentesque, mi at mattis tincidunt, erat felis tristique quam, a pulvinar orci nibh eget nisl. Proin facilisis fringilla ex, vehicula sagittis metus dictum sit amet. Integer elementum eleifend turpis, sagittis eleifend nibh interdum vehicula. Duis a elementum quam. Vestibulum pellentesque pellentesque felis, et blandit elit placerat in. Proin condimentum ut elit eget placerat. Suspendisse nunc justo, gravida cursus porttitor in, viverra ac urna.
+&lt;/p&gt;
+&lt;p&gt;
+  Proin diam lorem, lobortis sed justo eu, commodo elementum eros. Suspendisse potenti. Suspendisse potenti. Duis laoreet nisl at posuere sollicitudin. Sed tempus ut tellus hendrerit posuere. Ut sed eros hendrerit, vestibulum augue a, pretium purus. Phasellus rhoncus nisi in elit tempor gravida vel sed nibh. Vivamus vehicula sollicitudin viverra. Sed interdum lacus quis placerat ultrices. Fusce placerat imperdiet dolor, sit amet congue est mattis commodo. Integer tristique est in condimentum porttitor. Proin facilisis, nunc eget egestas viverra, nulla lacus gravida mi, vitae aliquam magna diam sit amet nisl. Aenean mollis rutrum tincidunt. Maecenas aliquam felis quis risus tristique gravida.
+&lt;/p&gt;</value>
+  </data>
+  <data name="ZanderHeader" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum lacinia consequat. Sed quis congue leo, nec interdum arcu. Proin eu pellentesque mauris. Curabitur in pharetra nibh. Praesent enim eros, pellentesque vitae nibh nec, consequat tristique leo. Vestibulum id sapien leo. Nam vitae diam consequat, aliquam lacus a, tincidunt urna. Morbi hendrerit mollis neque. Nam id bibendum lacus. Integer eu laoreet urna, et convallis nisi.</value>
+  </data>
+  <data name="ZanderName" xml:space="preserve">
+    <value>Име на рибата</value>
+  </data>
+</root>

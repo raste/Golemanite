@@ -1,0 +1,85 @@
+﻿/* ﻿﻿Golemanite (https://github.com/raste/Golemanite)(http://golemanite.gear.host/)
+   Copyright (c) 2015 Georgi Kolev. 
+   Licensed under Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).*/
+
+.hunting {
+}
+
+    .hunting .one-half.column {
+        width: 100%;
+    }
+
+    .hunting img {
+        width: 200px;
+    }
+
+    .hunting strong {
+        font-weight: bold;
+        color: white;
+    }
+
+    .hunting .fish {
+        margin-bottom: 20px;
+    }
+
+        .hunting .fish img {
+            margin-bottom: 5px;
+        }
+
+        .hunting .fish p {
+            margin-bottom: 0;
+            margin-left: 0;
+            overflow: auto;
+        }
+
+            .hunting .fish p a {
+                float: right;
+                font-size: 14px;
+            }
+
+        .hunting .fish .row > .one-half.column {
+            margin-top: 20px;
+        }
+
+        .hunting .fish .dialogDescr {
+            display: none;
+        }
+
+@media (min-width: 470px) {
+    .hunting .fish img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .hunting .one-half.column {
+        width: 50%;
+    }
+
+    .hunting .fish img {
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .hunting .fish > .row {
+        margin-top: 20px;
+    }
+
+    .hunting .fish .row > .one-half.column {
+        margin-top: 0;
+    }
+
+        .hunting .fish .row > .one-half.column:first-child {
+            padding-right: 10px;
+        }
+}
+
+@media (min-width: 930px) {
+    .hunting .fish img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+}

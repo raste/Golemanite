@@ -1,0 +1,127 @@
+﻿@using Golemanite.Content.Resources;
+
+<div class="headerContainer">
+
+    <div class="container headerMain">
+        <div class="row centered top">
+            <img src="~/Content/Images/star_w_lines.png" class="showAfter900 centered" />
+            <span class="showBefore900 topType">@Resources.PropertyType</span>
+        </div>
+        <div class="row bigName">
+            @IntroLink()
+        </div>
+
+        <div class="row showMobile">
+            <img src="~/Content/Images/line.png" class="centered lineMobile" />
+        </div>
+
+        <div class="row main-menu">
+            <div class="one-half column">
+                <div class="three columns">
+                    @Link(Resources.Location, "/Location", "/Home/LocationPartial", Resources.LocationTitle)
+                </div>
+                <div class="two columns hideMobile">
+                    <img src="~/Content/Images/star.png" class="centered star" />
+                </div>
+                <div class="seven columns">
+                    <div class="subMenuHolder">
+                        <span class="subMenuHolderText">
+                            @Resources.WeOffer
+                        </span>
+                        @SubMenu()
+                    </div>
+                </div>
+            </div>
+
+            <div class="centered line">
+                <img src="~/Content/Images/line.png" />
+                <br />
+                <span>@Resources.Since</span>
+            </div>
+
+            <div class="one-half column">
+                <div class="seven columns">
+                    @Link(Resources.Contacts, "/Contacts", "/Home/ContactsPartial", Resources.ContactsTitle)
+                </div>
+                <div class="two columns hideMobile">
+                    <img src="~/Content/Images/star.png" class="centered star" />
+                </div>
+                <div class="three columns">
+                    @LanguageLink("EN", "en")
+                    /
+                    @LanguageLink("BG", "bg")
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="headerRibbon">
+        <div class="bgr"></div>
+        <img src="~/Content/Images/mark.png" class="centered showAfter900" />
+        <span class="ribbon-text showAfter900">@Resources.PropertyType</span>
+        
+    </div>
+
+</div>
+
+@helper SubMenu()
+{
+    <ul>
+        <li>
+            @Link(Resources.TheHouse, "/TheHouse", "/Home/TheHousePartial", Resources.TheHouseTitle)
+        </li>
+        <li>
+            @Link(Resources.HuntingAndFishing, "/Hunting", "/Home/HuntingPartial", Resources.HuntingTitle)
+        </li>
+        <li>
+            @Link(Resources.Gallery, "/Gallery", "/Home/GalleryPartial", Resources.GalleryTitle)
+        </li>
+    </ul>
+}
+
+@helper IntroLink()
+{
+    var language = Functions.GetLanguage();
+    var languageCode = Functions.GetLanguageCode();
+
+    if (language == Golemanite.Language.English)
+    {
+        <a @Attributes.ChangePage("/", "/Home/StartPartial", Resources.IntroTitle) href="/">@Resources.Name</a>
+    }
+    else
+    {
+        <a @Attributes.ChangePage("/" + languageCode, "/Home/StartPartial", Resources.IntroTitle) href="/@languageCode">@Resources.Name</a>
+    }
+}
+
+@helper Link(string name, string relActionPath, string relPartialActionPath, string title)
+{
+    var langSubUrl = "/" + Functions.GetLanguageCode();
+    relActionPath = langSubUrl + relActionPath;
+    relPartialActionPath = langSubUrl + relPartialActionPath;
+
+    <a href="@relActionPath"
+       @Attributes.ChangePage(relActionPath, relPartialActionPath, title)
+       @AddSelectedClass(relActionPath, "mainLink")>@name</a>
+}
+
+@helper LanguageLink(string name, string langCode)
+{
+    <a href="#" @Attributes.LanguageSwitch(langCode)>@name</a>
+}
+
+@helper AddSelectedClass(string relActionPath, string customClass = "")
+{
+    var strClass = customClass;
+
+    if (Request.Url.AbsolutePath.ToLowerInvariant() == relActionPath.ToLowerInvariant())
+    {
+        strClass += " selected";
+    }
+
+    if (strClass.IsEmpty() == false)
+    {
+        @:class="@strClass"
+    }
+}

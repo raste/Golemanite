@@ -1,0 +1,58 @@
+﻿@using Golemanite.Content.Resources;
+
+@{
+    ViewBag.Title = Resources.GalleryTitle;
+    ViewBag.MetaDescription = Resources.GalleryMetaDescription;
+}
+
+<div class="gallery">
+    @*NOTE: if images names are updated -> do not forget to update body:after styles, since some of the images are preloaded there!*@
+
+    @*Outside*@
+    @ImgLink("golemanite_inner_courtyard_1", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_2", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_3", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_4", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_5", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_6", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_7", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_9", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_10", Resources.GalleryInnerCourtyard)
+    @ImgLink("golemanite_inner_courtyard_11", Resources.GalleryInnerCourtyard)
+
+    @*First Floor*@
+    @ImgLink("golemanite_first_floor_summer_kitchen", Resources.GalleryFirstFloorSummerKitchen)
+    @ImgLink("golemanite_first_floor_2", Resources.GalleryFirstFloor)
+    @ImgLink("golemanite_first_floor_3", Resources.GalleryFirstFloor)
+    @ImgLink("golemanite_first_floor_tavern_1", Resources.GalleryFirstFloorTavern)
+    @ImgLink("golemanite_first_floor_tavern_2", Resources.GalleryFirstFloorTavern)
+    @ImgLink("golemanite_cat_1", Resources.GalleryCat)
+    @ImgLink("golemanite_first_floor_winter_kitchen_1", Resources.GalleryFirstFloorWinterKitchen)
+    @ImgLink("golemanite_first_floor_winter_kitchen_2", Resources.GalleryFirstFloorWinterKitchen)
+
+    @*Second Floor*@
+    @ImgLink("golemanite_second_floor_room_1", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_2", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_3", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_4", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_5", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_6", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_bathroom_1", Resources.GallerySecondFloorBathroom)
+    @ImgLink("golemanite_second_floor_room_7", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_room_8", Resources.GallerySecondFloorRoom)
+    @ImgLink("golemanite_second_floor_bathroom_2", Resources.GallerySecondFloorBathroom)
+    @ImgLink("golemanite_second_floor_udaq_1", Resources.GallerySecondFloorUdaq)
+    @ImgLink("golemanite_second_floor_udaq_2", Resources.GallerySecondFloorUdaq)
+    @ImgLink("golemanite_second_floor_1", Resources.GallerySecondFloor)
+    @ImgLink("golemanite_second_floor_2", Resources.GallerySecondFloor)
+    @ImgLink("golemanite_second_floor_veranda_1", Resources.GallerySecondFloorVerand)
+    @ImgLink("golemanite_second_floor_veranda_2", Resources.GallerySecondFloorVerand)
+</div>
+
+@helper ImgLink(string fileName, string title)
+{
+    var fullSizeUrl = "/Content/Images/placeholder.png";
+    var thumbnailUrl = "/Content/Images/placeholder_t.png";
+
+    <a href="@fullSizeUrl" alt="@title" @Attributes.Gallery("gallery") target="_blank"><img src="@thumbnailUrl" /></a>
+}
