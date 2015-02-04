@@ -4,7 +4,7 @@
 
 Web business card for guests house in central Bulgaria.  
 
-Dev url (http://golemanite.gear.host/)[http://golemanite.gear.host/]
+Dev url [http://golemanite.gear.host/](http://golemanite.gear.host)
 
 The site was made in 2 and a half weeks. Features: 
 * Transition animation between intro page and the internal pages
@@ -20,10 +20,12 @@ The site was made in 2 and a half weeks. Features:
 ### Technologies
 
 .NET, C#, MVC  
-JS libraries/plugins: (lightbox)[http://lokeshdhakar.com/projects/lightbox2/] , (bingMapsAjaxV7Control)[https://www.bingmapsportal.com/isdk/ajaxv7] , (i18njs)[https://github.com/schalkneethling/i18njs] , (History.js)[https://github.com/browserstate/history.js/] , (jQuery)[http://jquery.com/] , (jQuery.placeholder)[https://github.com/mathiasbynens/jquery-placeholder] , (jQuery.validate)[http://jqueryvalidation.org/] , (jQuery UI)[http://jqueryui.com/]  
-CSS: (skeleton)[http://www.getskeleton.com/] , (normalize)[http://necolas.github.io/normalize.css/]
+JS libraries/plugins: [lightbox](http://lokeshdhakar.com/projects/lightbox2/), [bingMapsAjaxV7Control](https://www.bingmapsportal.com/isdk/ajaxv7), [i18njs](https://github.com/schalkneethling/i18njs), [History.js](https://github.com/browserstate/history.js/), [jQuery](http://jquery.com/), [jQuery.placeholder](https://github.com/mathiasbynens/jquery-placeholder), [jQuery.validate](http://jqueryvalidation.org/), [jQuery UI](http://jqueryui.com/)  
+CSS: [skeleton](http://www.getskeleton.com/), [normalize](http://necolas.github.io/normalize.css/)
 
 ### Poke/Edit
+
+TODO:)
 
 ### Images
 
