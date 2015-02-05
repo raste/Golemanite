@@ -29,8 +29,7 @@ The source is stripped from the texts and images used in the hosted variant.
 
 In order to modify the code and build the application you will need Visual Studio 2013 or greater.  
 
-Before running the project:  
-- In [web.config](https://github.com/raste/Golemanite/blob/master/Source/Golemanite/Web.config) locate this line:  
+In [web.config](https://github.com/raste/Golemanite/blob/master/Source/Golemanite/Web.config) locate this line:  
 
   ```
   <mailSettings>
@@ -43,9 +42,9 @@ Before running the project:
   
   *NOTE: SMTP must be enabled for the email address, in order to send emails from it.*  
   
-  Locate ```<add key="Email:To:Address" value="domain@mail.com" />``` and replace `domain@mail.com` with the address TO which the emails from contact form will be sent.
+  Locate ```<add key="Email:To:Address" value="domain@mail.com" />``` and replace `domain@mail.com` with the address TO which the emails from contact form will be sent.  
   
-- Build the solution. Some of the needed packages should be automatically downloaded from NUGET. If that doesn't happen, go to `TOOLS > NuGet package Manager > Package Manager Settings > check Allow NuGet to download missing packages`. If that doesn't help or some of the packages cannot be downloaded, get [packages.zip](https://github.com/raste/Golemanite/blob/master/Packages/packages.zip) and extract it in the directory of the solution (this is archive of the used packages).
+Build the solution. Some of the needed packages should be automatically downloaded from NUGET. If that doesn't happen, go to `TOOLS > NuGet package Manager > Package Manager Settings > check Allow NuGet to download missing packages`. If that doesn't help or some of the packages cannot be downloaded, get [packages.zip](https://github.com/raste/Golemanite/blob/master/Packages/packages.zip) and extract it in the directory of the solution (this is archive of the used packages).
 
 ### Images
 
