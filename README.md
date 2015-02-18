@@ -2,6 +2,8 @@
 
 ### About
 
+December 2014
+
 Web business card for guests house in central Bulgaria.  
 
 Dev url [http://golemanite.gear.host/](http://golemanite.gear.host)
