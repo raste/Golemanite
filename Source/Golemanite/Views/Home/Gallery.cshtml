@@ -54,5 +54,5 @@
     var fullSizeUrl = "/Content/Images/placeholder.png";
     var thumbnailUrl = "/Content/Images/placeholder_t.png";
 
-    <a href="@fullSizeUrl" alt="@title" @Attributes.Gallery("gallery") target="_blank"><img src="@thumbnailUrl" /></a>
+    <a href="@fullSizeUrl" @Attributes.Gallery("gallery") target="_blank"><img src="@thumbnailUrl" alt="@title" title="@title"/></a>
 }
